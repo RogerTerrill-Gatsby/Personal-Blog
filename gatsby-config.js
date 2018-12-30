@@ -5,8 +5,8 @@ module.exports = {
     description: 'A starter blog demonstrating what Gatsby can do.',
     siteUrl: 'https://gatsby-starter-blog-demo.netlify.com/',
     social: {
-      twitter: 'kylemathews'
-    }
+      twitter: 'Roger_Terrill',
+    },
   },
   plugins: [
     {
