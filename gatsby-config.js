@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'Roger Terrill Blog',
+    title: 'The Hangry Programmer',
     author: 'Roger Terrill',
     description: 'A starter blog demonstrating what Gatsby can do.',
     siteUrl: 'https://gatsby-starter-blog-demo.netlify.com/',
     social: {
-      twitter: 'Roger_Terrill'
-    }
+      twitter: 'Roger_Terrill',
+    },
   },
   plugins: [
     {
