@@ -3,7 +3,7 @@ module.exports = {
     title: 'The Hangry Programmer',
     author: 'Roger Terrill',
     description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsby-starter-blog-demo.netlify.com/',
+    siteUrl: 'https://www.thehangryprogrammer.com',
     social: {
       twitter: 'Roger_Terrill',
     },
