@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'The Hangry Programmer',
     author: 'Roger Terrill',
-    description: 'A starter blog demonstrating what Gatsby can do.',
+    description: 'My story about programming and staying fed :)',
     siteUrl: 'https://www.thehangryprogrammer.com',
     social: {
       twitter: 'Roger_Terrill',
