@@ -1,9 +1,10 @@
 import React from 'react'
+import Layout from '../components/layout'
 
-export default () => {
+export default props => {
   return (
-    <div>
-      This is the about.
-    </div>
+    <Layout location='props.location.pathname'>
+      <p>About Me coming soon...</p>
+    </Layout>
   )
 }
