@@ -63,7 +63,7 @@ With this change, no more extra divs and your code looks beautiful once again.
 
 Hopefully this helps clean up unwanted tags. 
 
-**IT GETS BETTER!**: There is also a new shorter syntax that has been added that looks pretty sweet according to the React Docs which is just an empty tag <>
+**IT GETS BETTER!**: There is also a new shorter syntax that has been added that looks pretty sweet according to the [React Docs](https://reactjs.org/docs/fragments.html) which is just an empty tag <>
 
 ```
   <>
