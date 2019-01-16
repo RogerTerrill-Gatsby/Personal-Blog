@@ -1,6 +1,6 @@
 ---
 title: My destination is so vivid but I'll enjoy the trip
-date: '2019-01-06T09:30:03.284Z'
+date: '2019-01-16T09:30:03.284Z'
 ---
 
 One of the methods that is touted for success is the vision board but mine is vividly in my mind. Just finished listening to a [James Altucher](https://jamesaltucher.com/) with guest David Goggins which my wife urged me to listen too and it was actually very powerful. Now, I already had the vision in my mind and everyday I tell my wife that we are going to live the dream life we want, I just know it, but on listening to [David Goggins](https://davidgoggins.com/), he really spoke to having the mental toughness to deal with the struggles in life as he had a very hard childhood but ultimately went to become a Navy Seal, run 100 mile marathan and write a book. I'm completely about taking accountability for my own successes and failures and ultimately it's no one else by my own mind that will stop or push me to that next hurdle. I don't like to say finish line because that says there is an end which in life there really is only one end but until then I got to strive to be a better husband, son, brother, and man. 
