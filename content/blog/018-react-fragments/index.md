@@ -62,3 +62,14 @@ With this change, no more extra divs and your code looks beautiful once again.
 ![React.Fragment](reactFragment.png)
 
 Hopefully this helps clean up unwanted tags. 
+
+**IT GETS BETTER!**: There is also a new shorter syntax that has been added that looks pretty sweet according to the React Docs which is just an empty tag <>
+
+```
+  <>
+    <td>Hello</td>
+    <td>World</>
+  </>
+```
+
+Warning though, they also say "many tools don't support it yet" and for now to stick with React.Fragment. 
