@@ -1,5 +1,5 @@
 ---
-title: Building a Full Stack Website with Gatsby, Apollo and PostgreSQL with Heroku Backend and Netlify Frontend
+title: Building a Full Stack Website with Gatsby, Apollo and PostgreSQL with Heroku Backend and Netlify Frontend (Part 1 of 3)
 date: '2019-08-28T22:42:03.284Z'
 ---
 
