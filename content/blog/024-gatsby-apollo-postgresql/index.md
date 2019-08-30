@@ -236,10 +236,14 @@ Awesome, our first official QUERY!!!
 ![queuries](apollo-backend-022.png)
 
 7. And finally, we will try our Mutation which is a two parter, first doing the mutation, and then reading all the games once again to see if it is in the list. First the mutation:
-![mutation](apollo-backend-022.png)
+![mutation](apollo-backend-023.png)
 
-Now let us make sure it is in the list.
-![confirmation](apollo-backend-023.png)
+8. Now let us make sure it is in the list.
+![confirmation](apollo-backend-024.png)
+
+BONUS: For added measure, lets check our pgAdmin and see the database directly. 
+![confirmation](apollo-backend-025.png)
+
 
 OMG, yup you just did that. I know when I did this I was on cloud 9 for as long as any developer is, 15 minutes. I hope that this really helped you build your first Apollo Server and that you can see just how amazing GraphQL is and how easy they make it to build queries. We will definitely be using this later on. For now though, take another break before we head to the belly of the beast, the frontend. 
 
