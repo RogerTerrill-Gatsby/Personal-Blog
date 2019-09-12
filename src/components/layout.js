@@ -1,8 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import styled from 'styled-components'
 
 import Nav from './nav'
-import { rhythm, scale } from '../utils/typography'
+
+const Title = styled.h1`
+  text-align: center;
+`
 
 const Layout = props => {
   const { location, title, children } = props
@@ -11,13 +15,7 @@ const Layout = props => {
 
   if (location.pathname === rootPath) {
     header = (
-      <h1
-        style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
-        }}
-      >
+      <h1>
         <Link
           style={{
             boxShadow: 'none',
@@ -26,7 +24,7 @@ const Layout = props => {
           }}
           to={'/'}
         >
-          {title}
+          <Title>{title}</Title>
         </Link>
       </h1>
     )
@@ -36,7 +34,6 @@ const Layout = props => {
         style={{
           fontFamily: 'Montserrat, sans-serif',
           marginTop: 0,
-          marginBottom: rhythm(-1),
         }}
       >
         <Link
@@ -55,17 +52,14 @@ const Layout = props => {
   return (
     <div
       style={{
-        display: 'flex',
         marginLeft: 'auto',
         marginRight: 'auto',
-        maxWidth: rhythm(30),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
-      <div style={{ flex: 1 }}>
+      <div>
         <Nav />
       </div>
-      <div style={{ flex: 6 }}>
+      <div className="container">
         <div>
           {header}
           {children}
