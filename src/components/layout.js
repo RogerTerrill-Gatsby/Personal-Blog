@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import { Helmet } from 'react-helmet'
 
 import Nav from './nav'
 
@@ -41,7 +40,7 @@ const Layout = props => {
           style={{
             boxShadow: 'none',
             textDecoration: 'none',
-            color: 'inherit',
+            color: 'white',
           }}
           to={'/'}
         >
@@ -71,9 +70,6 @@ const Layout = props => {
         </div>
 
       </div>
-      <Helmet>
-        <script src="/shadows.js"/>
-      </Helmet>
     </React.Fragment>
   )
 }
