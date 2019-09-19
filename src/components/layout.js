@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
+import { Helmet } from 'react-helmet'
 
 import Nav from './nav'
 
@@ -50,22 +51,30 @@ const Layout = props => {
     )
   }
   return (
-    <div
-      style={{
-        marginLeft: 'auto',
-        marginRight: 'auto',
-      }}
-    >
-      <div>
-        <Nav />
-      </div>
-      <div className="container">
+    <React.Fragment>
+    
+      <div
+        style={{
+          marginLeft: 'auto',
+          marginRight: 'auto',
+        }}
+      >
         <div>
-          {header}
-          {children}
+          <Nav />
         </div>
+
+        <div className="container">
+          <div>
+            {header}
+            {children}
+          </div>
+        </div>
+
       </div>
-    </div>
+      <Helmet>
+        <script src="/shadows.js"/>
+      </Helmet>
+    </React.Fragment>
   )
 }
 

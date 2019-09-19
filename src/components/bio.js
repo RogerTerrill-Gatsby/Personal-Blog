@@ -13,15 +13,15 @@ const Bio = () => {
           <div className="col s12 m8 offset-m2 l6 offset-l3">
             <div className="">
               <div className="row valign-wrapper">
-                <div className="col s1">
+                <div className="col s2 m1">
                   <Image
                     fixed={data.avatar.childImageSharp.fixed}
                     alt={author}
                     className="circle responsive-img"
                   />
                 </div>
-                <div className="col s11">
-                  <span className="black-text">
+                <div className="col s10 m11">
+                  <span className="white-text">
                     Written by <strong>{author}</strong> who lives and works in
                     Orange County building useful things.
                     <br />
