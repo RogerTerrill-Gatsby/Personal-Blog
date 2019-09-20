@@ -17,7 +17,7 @@ const BlogPostTemplate = props => {
         <p className="post-date" >
           {post.frontmatter.date}
         </p>
-        <div style={{color:"white"}} dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
 
         />
